@@ -1,3 +1,9 @@
+<%-- 
+    Document   : contacto
+    Created on : 18 abr. 2023, 20:09:10
+    Author     : LIMBER
+--%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -6,7 +12,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Pagina Principal</h1>
+        <h1>Contacto</h1>
         <%@include file="menu.jsp"%>
+        <p>Contacto 1324567980</p>
     </body>
 </html>

@@ -6,7 +6,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Pagina Principal</h1>
+        <h1>Servicios</h1>
         <%@include file="menu.jsp"%>
+        <p>123 Servicios</p>
     </body>
 </html>
