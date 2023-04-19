@@ -1,8 +1,3 @@
-<%-- 
-    Document   : contacto
-    Created on : 18 abr. 2023, 20:09:10
-    Author     : LIMBER
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -15,5 +10,17 @@
         <h1>Contacto</h1>
         <%@include file="menu.jsp"%>
         <p>Contacto 1324567980</p>
+        <form action="" method="post">
+            <label>Nombre</label>
+            <input type="text" name="nombre">
+            <br>
+            <label>Referencia</label>
+            <input type="text" name="referencia">
+            <br>
+            <label>Mensaje</label>
+            <textarea  name="mensaje"></textarea>
+            <br>
+            <input type="submit">
+        </form>
     </body>
 </html>
